@@ -230,9 +230,6 @@ img{
     display: flex ;
 }
 
-.visually-hidden{
-    visibility: hidden;
-}
 .container{
     width: 1158px;
     margin: 0 auto;
@@ -250,3 +247,14 @@ img{
     gap: 40px;
 
 }
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+    }
