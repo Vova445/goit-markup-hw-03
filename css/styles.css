@@ -30,6 +30,10 @@ body{
     margin-right: 76px;
 }
 
+.logo-two{
+    margin-right: 236px;
+}
+
 .link{
     text-decoration: none;
 }
@@ -130,7 +134,8 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--span-color);
-
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .studio-nav:hover, .studio-nav:focus{
@@ -218,6 +223,5 @@ img{
 .menu{
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
