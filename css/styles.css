@@ -184,3 +184,8 @@ font-weight: 500;
     --button-bg-color: #f4f4fd;
     --button-two-color: #4d5ae5;
 }
+
+.menu{
+    display: flex;
+    gap: 18px;
+}
