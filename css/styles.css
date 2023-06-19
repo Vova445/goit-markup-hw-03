@@ -86,6 +86,17 @@ body{
     font-weight: 700;
 }
 
+.section-title-three{
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--span-color);
+    font-weight: 700;
+    margin-bottom: 72px; 
+}
+
 .part-two-title{
 font-weight: 500;
 font-size: 20px;
@@ -124,8 +135,18 @@ margin-bottom: 8px;
     gap: 24px;
 }
 
+.list-three{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
 .list-part{
     width: calc((100% - 72px) / 4);
+}
+
+.list-part-q{
+    width: calc((100% - 48px) / 3);
 }
 
 
@@ -246,6 +267,10 @@ img{
     display: flex;
     gap: 40px;
 
+}
+
+.part-three{
+    padding-bottom: 120px;
 }
 
 .visually-hidden{
