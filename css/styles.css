@@ -23,6 +23,11 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     color:#4d5ae5;
+    
+}
+
+.logo{
+    margin-right: 76px;
 }
 
 .link{
@@ -93,6 +98,8 @@ font-weight: 500;
 }
 .list{
     list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 
 
@@ -206,4 +213,11 @@ img{
 .nav{
     display: flex;
     align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 60px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
