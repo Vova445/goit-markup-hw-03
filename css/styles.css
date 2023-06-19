@@ -26,6 +26,10 @@ body{
     
 }
 
+.logo{
+    margin-right: 76px;
+}
+
 .link{
     text-decoration: none;
 }
@@ -94,7 +98,8 @@ font-weight: 500;
 }
 .list{
     list-style-type: none;
-  
+    display: flex;
+    gap: 40px;
 }
 
 
@@ -142,7 +147,6 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-color);
-    font-weight: 400;
 
 }
 
@@ -213,11 +217,7 @@ img{
 
 .menu{
     display: flex;
-    gap: 60px;
+    gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-}
-
-.logo{
-    margin-right: 76px;
 }
