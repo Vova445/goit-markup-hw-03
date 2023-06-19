@@ -64,6 +64,7 @@ body{
     height: 56px;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .button-one:hover, .button-one:focus{
@@ -71,7 +72,10 @@ body{
     cursor: pointer;
 }
 
-
+.part-two{
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
 .section-title{
     text-align: center;
     font-size: 36px;
@@ -89,6 +93,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--span-color);
 font-weight: 500;
+margin-bottom: 8px;
 }
 
 
@@ -112,6 +117,16 @@ font-weight: 500;
     list-style-type: none;
     display: flex;
     gap: 40px;
+}
+.list-two{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.list-part{
+    width: calc((100% - 72px) / 4);
+
 }
 
 
