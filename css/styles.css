@@ -97,6 +97,16 @@ body{
     margin-bottom: 72px; 
 }
 
+.section-title-four{
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--span-color);
+    font-weight: 700;
+    margin-bottom: 72px;
+}
 .part-two-title{
 font-weight: 500;
 font-size: 20px;
@@ -142,18 +152,25 @@ margin-bottom: 8px;
     display: flex;
     gap: 24px;
 }
+.list-four{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
 
 .list-part{
     width: calc((100% - 72px) / 4);
 }
 
 .list-part-q{
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 72px) / 4);
 }
 
 
 .li-one{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .part-three-title{
@@ -163,6 +180,8 @@ margin-bottom: 8px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--span-color);
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .part-three-text{
@@ -171,6 +190,7 @@ margin-bottom: 8px;
     letter-spacing: 0.02em;
     color: var(--address-color);
     font-weight: 400;
+    text-align: center; 
 }
 
 .studio-nav{
@@ -273,6 +293,10 @@ img{
 
 .part-three{
     padding-bottom: 120px;
+}
+
+.workers{
+    padding: 32px 16px;
 }
 
 .visually-hidden {
