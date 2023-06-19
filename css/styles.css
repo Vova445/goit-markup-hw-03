@@ -184,12 +184,26 @@ font-weight: 500;
     --button-bg-color: #f4f4fd;
     --button-two-color: #4d5ae5;
 }
-
-.menu{
-    display: flex;
-    gap: 18px;
-}
-
 img{
     display: block;
+}
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.block-header{
+    display: flex ;
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
 }
