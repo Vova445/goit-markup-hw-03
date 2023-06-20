@@ -4,6 +4,10 @@ body{
     background-color: #ffffff;
 }
 
+ul{
+    padding-left: 0;
+}
+
 .web{
     color:  var(--span-color);
     
