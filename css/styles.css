@@ -4,8 +4,34 @@ body{
     background-color: #ffffff;
 }
 
-ul{
+
+h1, h2, h3, h4, h5, h6 p{
+    margin: 0;
+}
+
+
+img{
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+
+button{
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+ul,ol{
     padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .web{
@@ -32,11 +58,7 @@ ul{
 
 .logo{
     margin-right: 76px;
-}
-
-.logo-two{
-    margin-right: 236px;
-}
+} 
 
 .link{
     text-decoration: none;
@@ -59,6 +81,8 @@ ul{
     letter-spacing: 0.02em;
     font-weight: 700;
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 .button-one{
     background-color: #4D5AE5 ;
@@ -74,6 +98,7 @@ ul{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .button-one:hover, .button-one:focus{
@@ -204,7 +229,6 @@ margin-bottom: 8px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--span-color);
-    text-align: center;
     margin-bottom: 8px;
 }
 
@@ -214,7 +238,6 @@ margin-bottom: 8px;
     letter-spacing: 0.02em;
     color: var(--address-color);
     font-weight: 400;
-    text-align: center; 
 }
 
 .studio-nav{
@@ -225,6 +248,7 @@ margin-bottom: 8px;
     color: var(--span-color);
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
 }
 
 .studio-nav:hover, .studio-nav:focus{
@@ -233,6 +257,7 @@ margin-bottom: 8px;
 
 .address-header{
     font-style: normal;
+    margin-left: auto;
 }
 
 
@@ -291,9 +316,7 @@ margin-bottom: 8px;
     --button-bg-color: #f4f4fd;
     --button-two-color: #4d5ae5;
 }
-img{
-    display: block;
-}
+
 
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -301,6 +324,7 @@ img{
 
 .block-header{
     display: flex ;
+    align-items: center;
 }
 
 .container{
@@ -351,6 +375,5 @@ img{
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
     border-top: none;
-    margin-bottom: 8px;
     
 }
